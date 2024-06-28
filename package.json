@@ -1,0 +1,33 @@
+{
+  "name": "log4js-ka",
+  "version": "2.0.1",
+  "description": "log4js kafka appender",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YUHAI0/log4js-ka.git"
+  },
+  "keywords": [
+    "log4js",
+    "kafka",
+    "appender"
+  ],
+  "author": "me.yuhai@hotmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/YUHAI0/log4js-ka/issues"
+  },
+  "homepage": "https://github.com/YUHAI0/log4js-ka#readme",
+  "dependencies": {
+    "kafkajs": "^2.2.4",
+    "log4js": "^6.9.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.9",
+    "typescript": "^5.5.2"
+  }
+}
